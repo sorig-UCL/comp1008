@@ -22,6 +22,54 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.comp1008.observatory.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.comp1008.observatory.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.MenuActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.ResearchActivity"
+            android:label="@string/title_activity_research"
+            android:parentActivityName="com.comp1008.observatory.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.MenuActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.HistoryActivity"
+            android:label="@string/title_activity_history"
+            android:parentActivityName="com.comp1008.observatory.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.MenuActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.EventsActivity"
+            android:label="@string/title_activity_events"
+            android:parentActivityName="com.comp1008.observatory.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.MenuActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.WeatherActivity"
+            android:label="@string/title_activity_weather"
+            android:parentActivityName="com.comp1008.observatory.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.MenuActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.GameActivity"
+            android:label="@string/title_activity_game"
+            android:parentActivityName="com.comp1008.observatory.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.MenuActivity" />
+        </activity>
     </application>
 
 </manifest>
