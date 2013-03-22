@@ -4,13 +4,34 @@
     android:layout_height="match_parent"
     tools:context=".HistoryActivity" >
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="62dp"
+        android:adjustViewBounds="false"
+        android:src="@drawable/ic_launcher" />
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="36dp"
         android:text="History"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/leftMargin"
+        android:layout_marginLeft="@dimen/leftMargin"
+        android:text="@string/lorem_ipsum" />
 
 </RelativeLayout>
