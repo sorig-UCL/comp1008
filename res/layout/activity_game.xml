@@ -4,12 +4,22 @@
     android:layout_height="match_parent"
     tools:context=".GameActivity" >
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/topMargin"
+        android:src="@drawable/invaders" />
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="15dp"
         android:text="Game"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
