@@ -21,7 +21,6 @@ public class EventsActivity extends Activity {
 			getActionBar().setDisplayHomeAsUpEnabled(true);
 		}
 	}
-
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
