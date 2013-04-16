@@ -6,7 +6,7 @@
     <string name="menu_about_button_title">About</string>
     <string name="menu_research_button_title">Research</string>
     <string name="menu_history_button_title">History</string>
-    <string name="menu_events_button_title">Events</string>
+    <string name="menu_events_button_title">News and Events</string>
     <string name="menu_weather_button_title">Weather</string>
     <string name="menu_game_button_title">Game</string>
     <string name="title_activity_about">AboutActivity</string>
@@ -16,5 +16,6 @@
     <string name="title_activity_weather">WeatherActivity</string>
     <string name="title_activity_game">GameActivity</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper tortor nec orci placerat pellentesque. Curabitur sit amet nisl odio. Vivamus tempus tortor id ligula pharetra consectetur. Nullam id erat magna, nec gravida quam. Phasellus at elit felis. Aliquam et quam metus, sed pulvinar tortor. Curabitur venenatis faucibus lorem at molestie. Morbi tempor justo ut lacus pharetra ac convallis ipsum faucibus. Sed tempor dapibus mi eu consequat. In id diam mauris, sed posuere massa. Nam libero nunc, consequat et aliquet vestibulum, suscipit a nunc. Mauris egestas lectus in lectus convallis a sollicitudin quam pretium. Etiam consequat scelerisque risus ac eleifend. Nullam laoreet ultricies nibh, id vulputate lorem euismod non. Donec urna elit, adipiscing eu faucibus sit amet, aliquet eget nisi.</string>
+    <string name="events_title">News and Events</string>
 
 </resources>

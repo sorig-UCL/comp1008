@@ -45,5 +45,4 @@ public class EventsActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
-
 }
