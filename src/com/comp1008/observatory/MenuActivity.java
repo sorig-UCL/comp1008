@@ -1,8 +1,5 @@
 package com.comp1008.observatory;
 
-import com.comp1008.observatory.AboutActivity;
-import com.comp1008.observatory.ResearchActivity;
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -82,5 +79,4 @@ public class MenuActivity extends Activity {
             }
         });
 	}
-
 }

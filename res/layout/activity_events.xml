@@ -11,7 +11,28 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/events_title"
-        android:textSize="20sp"
+        android:textSize="50sp"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/eventButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/events_button_title1" 
+        android:onClick="event1"/>
+
+    <Button
+        android:id="@+id/eventButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/events_button_title2" 
+        android:onClick="event2"/>
+
+    <Button
+        android:id="@+id/eventButton3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/events_button_title3"
+        android:onClick="event3"/>
 
 </LinearLayout>

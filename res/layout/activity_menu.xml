@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/weatherButton"
         android:layout_alignBottom="@+id/weatherButton"
-        android:layout_alignLeft="@+id/eventsButton"
+        android:layout_alignRight="@+id/eventsButton"
         android:text="@string/menu_game_button_title" />
 
 </RelativeLayout>
