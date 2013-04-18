@@ -26,5 +26,12 @@
     <string name="title_activity_event1">Event1</string>
     <string name="title_activity_event2">Event2</string>
     <string name="title_activity_event3">Event3</string>
+    <string name="event_content1">The close historical association between astronomy and timekeeping has been recognized by an invitation of affiliation from the Worshipful Company of Clockmakers
+The affiliation was formally marked on 2013 January 24 at ULO, when the Master of the Clockmakers, Mark Elliott, presented the Clockmakers' Shield of Arms to the President and Provost of UCL, Professor Malcolm Grant. We look forward to a long and fruitful relationship.</string>
+    <string name="event_content2">The Observatory is developing the capability of operating suitable telescopes from off-site, a process initially made possible by a CIF grant allowing purchase of equipment enabling a dome to track the motion of the telescope it houses. Over the summer months a concerted and continuing effort has been made by Observatory staff to tackle remaining mechanical and software challenges, with undergraduate involvement made possible through bursaries provided by the Nuffield Trust and the Royal Astronomical Society.
+A milestone in this process was passed on 2010 July 21, when student Jakub Bochinski controlled a C14 telescope and its CCD camera from his home in central London, using a web-based interface – the first remote observation to be conducted at ULO. As well as calibration frames, a set of first light images of the planetary nebula M27, shown below, was obtained.
+A number of operational matters have yet to be resolved, and routine remote observing still lies well ahead. Nonetheless, the success of this experiment, attributable to the combined efforts of all the technical and academic staff at the Observatory, demonstrates great promise for future progress in this direction.</string>
+    <string name="event_content3">What happens when art and astronomy meet? Artist Katie Paterson has joined UCL's Astrophysics Group as their first Artist in Residence, thanks to a grant from the Leverhulme Trust. During the residency, Katie will investigate ideas of Ancient Darkness and Early Light in the Universe, Dark Energy, Dark Matter, and very distant objects, and create a new body of artwork alongside her findings. Katie graduated from the UCL Slade School of Fine Art in 2007.
+The following video, which includes much footage obtained at ULO, outlines some of the concepts and ideas.</string>
 
 </resources>
