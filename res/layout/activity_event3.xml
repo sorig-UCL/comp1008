@@ -9,8 +9,21 @@
     tools:context=".Event3" >
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="@string/events_button_title3"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    
+        <TextView
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentBottom="true"
+        android:ems="10"
+        android:text="@string/event_content3"
+        android:textSize="12sp" />
 
 </RelativeLayout>
