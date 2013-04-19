@@ -13,17 +13,17 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/events_button_title2"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:textStyle="italic" />
     
         <TextView
-        android:id="@+id/editText1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_alignParentBottom="true"
-        android:ems="10"
-        android:text="@string/event_content2"
-        android:textSize="12sp" />
+            android:id="@+id/editText1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignParentBottom="true"
+            android:ems="10"
+            android:text="@string/event_content2"
+            android:textSize="22sp" />
 
 </RelativeLayout>
