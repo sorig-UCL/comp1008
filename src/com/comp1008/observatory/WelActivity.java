@@ -74,7 +74,7 @@ public class WelActivity extends Activity
         gameView.setOnTimerListener(this);
         gameView.setOnStateListener(this);
         gameView.setOnToolsChangedListener(this);
-//        GameView.initSound(this);
+
         
         Animation scale = AnimationUtils.loadAnimation(this,R.anim.scale_anim);
         imgTitle.startAnimation(scale);

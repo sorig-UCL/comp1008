@@ -55,8 +55,7 @@ public class MyDialog extends Dialog implements OnClickListener{
             })
             .create();
 			dialog.show();
-//			gameview.startPlay();
-//			Toast.makeText(context, text, duration);
+
 			break;
 		case R.id.replay_imgbtn:
 			gameview.startPlay();
