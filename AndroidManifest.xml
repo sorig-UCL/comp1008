@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.comp1008.observatory"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.comp1008.observatory.MenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.comp1008.observatory.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.MenuActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.ResearchActivity"
+            android:label="@string/title_activity_research"
+            android:parentActivityName="com.comp1008.observatory.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.MenuActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.HistoryActivity"
+            android:label="@string/title_activity_history"
+            android:parentActivityName="com.comp1008.observatory.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.MenuActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.EventsActivity"
+            android:label="@string/title_activity_events"
+            android:parentActivityName="com.comp1008.observatory.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.MenuActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.WeatherActivity"
+            android:label="@string/title_activity_weather"
+            android:parentActivityName="com.comp1008.observatory.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.MenuActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.GameActivity"
+            android:label="@string/title_activity_game"
+            android:parentActivityName="com.comp1008.observatory.MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.MenuActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.TestingActivity"
+            android:label="@string/title_activity_testing" >
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.Event1"
+            android:label="@string/title_activity_event1" >
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.Event2"
+            android:label="@string/title_activity_event2" >
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.Event3"
+            android:label="@string/title_activity_event3" >
+        </activity>
+        
+                <activity android:name=".WelActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:launchMode="singleTask"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>
