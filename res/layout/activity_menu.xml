@@ -2,61 +2,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/menu_background"
     tools:context=".MenuActivity" >
 
+   
     <Button
         android:id="@+id/aboutButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="133dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="20dp"
         android:text="@string/menu_about_button_title" />
 
     <Button
         android:id="@+id/researchButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/aboutButton"
-        android:layout_alignBottom="@+id/aboutButton"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="24dp"
+        android:layout_width="160dp"
+        android:layout_height="133dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/aboutButton"
         android:text="@string/menu_research_button_title" />
 
     <Button
-        android:id="@+id/historyButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/aboutButton"
-        android:layout_below="@+id/aboutButton"
-        android:layout_marginTop="55dp"
-        android:text="@string/menu_history_button_title" />
-
-    <Button
-        android:id="@+id/eventsButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/historyButton"
-        android:layout_alignRight="@+id/researchButton"
-        android:text="@string/menu_events_button_title" />
-
-    <Button
         android:id="@+id/weatherButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/historyButton"
-        android:layout_below="@+id/historyButton"
-        android:layout_marginTop="58dp"
+        android:layout_width="160dp"
+        android:layout_height="133dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/researchButton"
         android:text="@string/menu_weather_button_title" />
 
     <Button
+        android:id="@+id/historyButton"
+        android:layout_width="160dp"
+        android:layout_height="133dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/menu_history_button_title" />
+        <!--android:layout_marginTop="55dp" -->
+
+    <Button
+        android:id="@+id/eventsButton"
+        android:layout_width="160dp"
+        android:layout_height="133dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/historyButton"
+        android:text="@string/menu_events_button_title" />
+
+    <Button
         android:id="@+id/gameButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/weatherButton"
-        android:layout_alignBottom="@+id/weatherButton"
-        android:layout_alignRight="@+id/eventsButton"
+        android:layout_width="160dp"
+        android:layout_height="133dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/eventsButton"
         android:text="@string/menu_game_button_title" />
 
 </RelativeLayout>

@@ -17,6 +17,8 @@
     <string name="title_activity_weather">WeatherActivity</string>
     <string name="title_activity_game">GameActivity</string>
     
+    <string name="ulo_logo">ULO</string>
+    
     <string name="time">Time used:$ seconds</string>
     <string name="quit">Exit</string>
     <string name="sure_quit">Are you sure to exit?</string>
