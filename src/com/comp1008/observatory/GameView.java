@@ -25,7 +25,7 @@ public class GameView extends BoardView {
 	public static final int PLAY = 4;
 	public static final int QUIT = 5;
 
-	private int Help = 50;
+	private int Help = 3;
 	private int Refresh = 3;
 	
 	private int totalTime = 100;
@@ -60,7 +60,7 @@ public class GameView extends BoardView {
 	public static final int ID_SOUND_ERROR = 8;*/
 	
 	public void startPlay(){
-		Help = 50;
+		Help = 3;
 		Refresh = 3;
 		isStop = false;
 		toolsChangedListener.onRefreshChanged(Refresh);
