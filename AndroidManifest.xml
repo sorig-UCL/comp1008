@@ -19,7 +19,6 @@
 			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -46,6 +45,14 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.comp1008.observatory.MenuActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.FoundationActivity"
+            android:label="@string/history_foundation_button" 
+            android:parentActivityName="com.comp1008.observatory.FoundationActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.HistoryActivity" />
         </activity>
         <activity
             android:name="com.comp1008.observatory.EventsActivity"
