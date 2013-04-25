@@ -39,6 +39,38 @@
                 android:value="com.comp1008.observatory.MenuActivity" />
         </activity>
         <activity
+            android:name="com.comp1008.observatory.Telescope1Activity"
+            android:label="@string/telescopes_telescope1_button" 
+            android:parentActivityName="com.comp1008.observatory.Telescope1Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.TelescopesActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.Telescope2Activity"
+            android:label="@string/telescopes_telescope2_button" 
+            android:parentActivityName="com.comp1008.observatory.Telescope2Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.TelescopesActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.Telescope34Activity"
+            android:label="@string/telescopes_telescope34_button" 
+            android:parentActivityName="com.comp1008.observatory.Telescope34Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.TelescopesActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.Telescope5Activity"
+            android:label="@string/telescopes_telescope5_button" 
+            android:parentActivityName="com.comp1008.observatory.Telescope5Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.TelescopesActivity" />
+        </activity>                
+        <activity
             android:name="com.comp1008.observatory.HistoryActivity"
             android:label="@string/title_activity_history"
             android:parentActivityName="com.comp1008.observatory.MenuActivity" >

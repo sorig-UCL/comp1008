@@ -67,6 +67,12 @@ Disabled visitors should contact us in advance to enquire about access; note tha
     <string name="alert_dialog_ok">OK</string>
     <string name="alert_dialog_cancel">Cancel</string>
     
+    <string name="telescopes_intro">ULO has 5 permanently mounted telescopes, which are used primarily for undergraduate training and for research projects with student participation. The permanently mounted telescopes are:</string>
+   	
+    <string name="telescopes_telescope1_button">The Radcliffe 18/24-inch Double Refractor</string>
+    <string name="telescopes_telescope2_button">The Allen 24-inch Reflector</string>
+    <string name="telescopes_telescope34_button">The Celestron C14 14-inch Reflectors</string>
+    <string name="telescopes_telescope5_button">The Fry 8-inch Refractor</string>
     
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper tortor nec orci placerat pellentesque. Curabitur sit amet nisl odio. Vivamus tempus tortor id ligula pharetra consectetur. Nullam id erat magna, nec gravida quam. Phasellus at elit felis. Aliquam et quam metus, sed pulvinar tortor. Curabitur venenatis faucibus lorem at molestie. Morbi tempor justo ut lacus pharetra ac convallis ipsum faucibus. Sed tempor dapibus mi eu consequat. In id diam mauris, sed posuere massa. Nam libero nunc, consequat et aliquet vestibulum, suscipit a nunc. Mauris egestas lectus in lectus convallis a sollicitudin quam pretium. Etiam consequat scelerisque risus ac eleifend. Nullam laoreet ultricies nibh, id vulputate lorem euismod non. Donec urna elit, adipiscing eu faucibus sit amet, aliquet eget nisi.</string>
     <string name="events_title">News &amp; Events</string>
