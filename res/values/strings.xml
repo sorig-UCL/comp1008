@@ -19,6 +19,22 @@
     
     <string name="ulo_logo">ULO</string>
     
+    <string name="ulo_about">The University of London Observatory is a hands-on teaching observatory and is part of the Astrophysics Group at UCLs Department of Physics and Astronomy."\n\n"
+We are equipped with five permanently mounted telescopes, two computer classrooms and a specialist astronomy library. Our reasonable proximity to the main campus, and the provision of regular classes, ensure that students have good access to the telescopes."\n\n"
+In addition to observing, students are trained in data-reduction techniques, the practical applications of astrophysical theory, and computational astronomy. This training can take place in the context of an undergraduate degree module, a student project, or, for interested members of the public, as part of our further-education Certifcate in Astronomy."\n\n"
+ULO remains active in scientific inquiry, with a strong observational research programme in extrasolar planets. We are in the process of expanding our observing capabilities with the development of unattended (remote and robotic) observing modes, which we hope will culminate in a new large robotic telescope, a project for which funding is currently underway."\n\n"
+We offer guided tours to the public (booking required), and are actively engaged in outreach activities to schools. We are honoured to be affiliated to the Worshipful Company of Clockmakers.</string>
+	<string name="ulo_address_title">Address</string>
+    <string name="ulo_address">University of London Observatory"\n"553 Watford Way"\n"Mill Hill Park"\n"London"\n"NW7 2QS</string>
+    <string name="ulo_finding_title">Finding ULO</string>
+    <string name="ulo_finding">The Observatory is located off the northbound carriageway of the A1 in Mill Hill, North London. (There is no vehicular access from the southbound carriageway; pedestrians on the southbound side of the road must use the under-road subway just north of the Observatory.) It is easily reached by public transport."\n\n"
+We discourage arrival by car; entry to the site from the Watford Way is hazardous, and there is no parking for tour visitors on site. A large, free public car park is located nearby Daws Lane (postcode for satnav is NW7 4SL. The route to ULO is via the A1 pedestrian underpass, most easily reached from the alley that runs along the western side of Royal Mail Mill Hill Delivery Office). Parking is also available in the Mill Hill Broadway railway-station car park in Bunns Lane (pay and display, but free after 18:30)."\n\n"
+Disabled visitors should contact us in advance to enquire about access; note that the site is not wheelchair-friendly, and has steep stairways.</string>   
+    <string name="ulo_staff_title">Staff</string>
+    <string name="ulo_staff">Please click here for detailed information of the ULO staff</string>
+    <string name="ulo_contact_title">Contact</string>
+    <string name="ulo_contact"><b>Telephone:</b> +44 (0) 203 108 1613"\n"Administrative office (Dr Fanghanel); all general enquiries, including public visits, schools visits, etc."\n\n"<b>Email: </b> a.fanghanel@ucl.ac.uk"\n"Administrative office (Dr Fanghanel)</string>
+    
     <string name="time">Time used:$ seconds</string>
     <string name="quit">Exit</string>
     <string name="sure_quit">Are you sure to exit?</string>

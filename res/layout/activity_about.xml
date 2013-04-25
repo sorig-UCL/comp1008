@@ -1,16 +1,118 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+<RelativeLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
     tools:context=".AboutActivity" >
-
+    
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/titleAbout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="About page"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textColor="#33b6ea"
+        android:text="@string/menu_about_button_title" />
+                
+    <TextView
+        android:id="@+id/textAbout"
+        android:layout_below="@+id/titleAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="@+string/ulo_about"
+        style="@style/AboutTextStyle" /> 
+        
+    <TextView
+        android:id="@+id/titleAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/textAbout"
+        android:textStyle="bold"
+        android:textColor="#33b6ea"
+        android:text="@string/ulo_address_title" />
 
+	<TextView
+        android:id="@+id/textAddress"
+        android:layout_below="@+id/titleAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="@+string/ulo_address"
+        style="@style/AboutTextStyle" /> 
+
+	    <TextView
+        android:id="@+id/titleFinding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/textAddress"
+        android:textStyle="bold"
+        android:textColor="#33b6ea"
+        android:text="@string/ulo_finding_title" />
+
+	<TextView
+        android:id="@+id/textFinding"
+        android:layout_below="@+id/titleFinding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="@+string/ulo_finding"
+        style="@style/AboutTextStyle" /> 
+
+	    <TextView
+        android:id="@+id/titleStaff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/textFinding"
+        android:textStyle="bold"
+        android:textColor="#33b6ea"
+        android:text="@string/ulo_staff_title" />
+
+	<TextView
+        android:id="@+id/textStaff"
+        android:layout_below="@+id/titleStaff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="@+string/ulo_staff"
+        style="@style/AboutTextStyle" /> 
+        
+	<TextView
+        android:id="@+id/titleContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/textStaff"
+        android:textStyle="bold"
+        android:textColor="#33b6ea"
+        android:text="@string/ulo_contact_title" />
+
+	<TextView
+        android:id="@+id/textContact"
+        android:layout_below="@+id/titleContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@+string/ulo_contact"
+        style="@style/AboutTextStyle" /> 
+    
+        
 </RelativeLayout>
+</ScrollView>
