@@ -59,5 +59,14 @@
         android:layout_below="@+id/eventsButton"
         style="@style/MenuButtonStyle"
         android:text="@string/menu_game_button_title" />
+    
+    <ImageView
+		android:id="@+id/image"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_below="@+id/weatherButton"
+    	android:scaleType="center"
+    	android:layout_marginBottom="8dp"
+    	android:src="@drawable/ulologo_small" />
 
 </RelativeLayout>
