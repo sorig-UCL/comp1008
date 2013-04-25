@@ -8,13 +8,13 @@ import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
 import android.os.Build;
 
-public class ResearchActivity extends Activity {
+public class TelescopesActivity extends Activity {
 
 	@Override
 	@TargetApi(11)
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_research);
+		setContentView(R.layout.activity_telescopes);
 		// Show the Up button in the action bar.
 		
 		if (Build.VERSION.SDK_INT >= 11) {

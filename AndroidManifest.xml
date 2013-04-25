@@ -31,8 +31,8 @@
                 android:value="com.comp1008.observatory.MenuActivity" />
         </activity>
         <activity
-            android:name="com.comp1008.observatory.ResearchActivity"
-            android:label="@string/title_activity_research"
+            android:name="com.comp1008.observatory.TelescopesActivity"
+            android:label="@string/title_activity_telescopes"
             android:parentActivityName="com.comp1008.observatory.MenuActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
