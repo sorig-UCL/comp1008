@@ -11,7 +11,7 @@
     tools:context=".TelescopesActivity" >
     
     <TextView
-        android:id="@+id/titleTelescopes"
+        android:id="@+id/titleTelescope5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -19,38 +19,27 @@
         android:layout_alignParentLeft="true"
         android:textStyle="bold"
         android:textColor="#33b6ea"
-        android:text="@string/history_foundation_button" />
+        android:text="@string/telescopes_telescope5_button" />
  
 	<TextView
-        android:id="@+id/textFoundation"
-        android:layout_below="@+id/titleFoundation"
+        android:id="@+id/textTelescope5"
+        android:layout_below="@+id/titleTelescope5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:text="@string/history_foundation"
+        android:text="@string/telescope5"
         style="@style/AboutTextStyle" />
 
 	<ImageView
-	    android:id="@+id/foundationImage"
+	    android:id="@+id/telescope5Image"
 	    android:layout_width="300dp"
-	    android:layout_height="240dp"
+	    android:layout_height="336dp"
 	    android:layout_centerHorizontal="true"
 	    android:layout_alignParentBottom="true"
-	    android:layout_below="@+id/textFoundation"
+	    android:layout_below="@+id/textTelescope5"
 	    android:gravity="center"
-	    android:src="@drawable/ulofoundation" />
-		
-	<TextView
-    	android:id="@+id/foundationImageText"
-	    android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-	    android:layout_alignLeft="@+id/foundationImage"
-    	android:layout_alignBottom="@+id/foundationImage"  	
-    	android:layout_marginLeft="8dp"
-    	android:text="@string/history_foundation_image"
-    	android:textStyle="bold"
-    	android:textColor="#33b6ea" />
+	    android:src="@drawable/telescope5" />
     	
 </RelativeLayout>
 </ScrollView>
