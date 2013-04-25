@@ -8,89 +8,56 @@
    
     <Button
         android:id="@+id/aboutButton"
-        android:layout_width="145dp"
-        android:layout_height="145dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="5dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginTop="35dp"
-        android:background="@drawable/shape"
+        style="@style/MenuButtonStyle"
         android:text="@string/menu_about_button_title" />
 
     <Button
         android:id="@+id/researchButton"
-        android:layout_width="145dp"
-        android:layout_height="145dp"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="5dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginTop="5dp"
         android:layout_below="@+id/aboutButton"
-        android:background="@drawable/shape"
+        style="@style/MenuButtonStyle"
         android:text="@string/menu_research_button_title" />
 
     <Button
         android:id="@+id/weatherButton"
-        android:layout_width="145dp"
-        android:layout_height="145dp"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginTop="5dp"
         android:layout_below="@+id/researchButton"
-        android:background="@drawable/shape"
+        style="@style/MenuButtonStyle"
         android:text="@string/menu_weather_button_title" />
 
     <Button
         android:id="@+id/historyButton"
-        android:layout_width="145dp"
-        android:layout_height="145dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="5dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginTop="35dp"
-        android:background="@drawable/shape"
+        style="@style/MenuButtonStyle"
         android:text="@string/menu_history_button_title" />
 
     <Button
         android:id="@+id/eventsButton"
-        android:layout_width="145dp"
-        android:layout_height="145dp"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="5dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginTop="5dp"
         android:layout_below="@+id/historyButton"
-        android:background="@drawable/shape"
+        style="@style/MenuButtonStyle"
         android:text="@string/menu_events_button_title" />
 
     <Button
         android:id="@+id/gameButton"
-        android:layout_width="145dp"
-        android:layout_height="145dp"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginTop="5dp"
         android:layout_below="@+id/eventsButton"
-        android:background="@drawable/shape"
+        style="@style/MenuButtonStyle"
         android:text="@string/menu_game_button_title" />
-    
-    <!--   <ImageView
-        android:id="@+id/uloLogo"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:layout_width="wrap_content"
-        android:cropToPadding="true"
-        android:src="@drawable/ulologo_small" /> -->
-        
 
 </RelativeLayout>
