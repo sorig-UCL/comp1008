@@ -33,7 +33,7 @@ Disabled visitors should contact us in advance to enquire about access; note tha
     <string name="ulo_staff_title">Staff</string>
     <string name="ulo_staff">Please click here for detailed information of the ULO staff</string>
     <string name="ulo_contact_title">Contact</string>
-    <string name="ulo_contact"><b>Telephone:</b> +44 (0) 203 108 1613"\n"Administrative office (Dr Fanghanel); all general enquiries, including public visits, schools visits, etc."\n\n"<b>Email: </b> a.fanghanel@ucl.ac.uk"\n"Administrative office (Dr Fanghanel)</string>
+    <string name="ulo_contact"><b>Telephone: +44 (0) 203 108 1613</b>"\n"Administrative office (Dr Fanghanel); all general enquiries, including public visits, schools visits, etc."\n\n"<b>Email: a.fanghanel@ucl.ac.uk</b>"\n"Administrative office (Dr Fanghanel)</string>
     
     <string name="history_foundation_button">Foundation</string>
     <string name="history_prewarexpansion_button">Pre-War Expansion</string>
@@ -58,6 +58,8 @@ Disabled visitors should contact us in advance to enquire about access; note tha
         Beginning in 2001, the teaching of astronomy at the Observatory expanded to provide for students enrolled in a part-time evening course at UCL, the popular Certificate of Higher Education in Astronomy. Public and school visits each year typically involve of order 1000 visitors per year who tour the premises and look through telescopes if conditions permit. On a single day in 2004, the Observatory was host to 560 visitors who arrived from 6.00am onwards to view the historic Transit of Venus on June 8th."\n\n"
         Computing facilities at the Observatory and Annexe have been continually updated over the years, from hand cranked Brunsviga calculators in the 1940s to the current network of powerful servers, Linux workstations and PCs for staff and students.</string>
     <string name="history_intro">The University of London Observatory has a very interesting history. Please select a period to find out more about:</string>
+    <string name="history_foundation_image">Mr C. R. Spratt and the Radcliffe Dex axle</string>
+    <string name="history_ulotoday_image">The observatory as it is today</string>
     
     <string name="time">Time used:$ seconds</string>
     <string name="quit">Exit</string>
