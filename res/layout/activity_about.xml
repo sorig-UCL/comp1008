@@ -42,8 +42,8 @@
         android:textColor="#33b6ea"
         android:text="@string/ulo_address_title" />
 
-	<TextView
-        android:id="@+id/textAddress"
+	<Button
+        android:id="@+id/mapsButton"
         android:layout_below="@+id/titleAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_below="@+id/textAddress"
+        android:layout_below="@+id/mapsButton"
         android:textStyle="bold"
         android:textColor="#33b6ea"
         android:text="@string/ulo_finding_title" />

@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.support.v4.app.NavUtils;
 import android.annotation.TargetApi;
 import android.content.Intent;
+import android.net.Uri;
 
 public class AboutActivity extends Activity {
 
@@ -58,5 +59,14 @@ public class AboutActivity extends Activity {
        	     	startActivity(intent);
             }
         });
+		Button mapsButton = (Button) findViewById(R.id.mapsButton);
+		mapsButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                String uri = String.format("geo:0,0?q=university+of+london+observatory");
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+                startActivity(intent);
+            }
+        });
+
 	}
 }
