@@ -17,31 +17,40 @@
     <ImageView
         android:id="@+id/ImageView04"
         android:layout_width="fill_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="40dp"
-        android:scaleType="fitCenter"
+        android:layout_height="450dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
         android:src="@raw/eventhome" />
 
     <Button
         android:id="@+id/eventButton1"
+        style="@style/HistoryButtonStyle"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="40dp"
         android:onClick="event1"
         android:text="@string/events_button_title1"
         android:textSize="25sp" />
 
     <Button
         android:id="@+id/eventButton2"
+        style="@style/HistoryButtonStyle"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
         android:onClick="event2"
         android:text="@string/events_button_title2"
         android:textSize="25sp" />
 
     <Button
         android:id="@+id/eventButton3"
+        style="@style/HistoryButtonStyle"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
         android:onClick="event3"
         android:text="@string/events_button_title3"
         android:textSize="25sp" />
