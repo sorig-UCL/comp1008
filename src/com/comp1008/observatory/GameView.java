@@ -31,7 +31,7 @@ public class GameView extends BoardView {
 	private int totalTime = 100;
 	private int leftTime;
 	
-//	public static SoundPlay soundPlay;
+
 	public MediaPlayer player;
 	
 	private RefreshTime refreshTime;
@@ -51,13 +51,7 @@ public class GameView extends BoardView {
 		player.setLooping(true);
 	}
 	
-/*	public static final int ID_SOUND_CHOOSE = 0;
-	public static final int ID_SOUND_DISAPEAR = 1;
-	public static final int ID_SOUND_WIN = 4;
-	public static final int ID_SOUND_LOSE = 5;
-	public static final int ID_SOUND_REFRESH = 6;
-	public static final int ID_SOUND_TIP = 7;
-	public static final int ID_SOUND_ERROR = 8;*/
+
 	
 	public void startPlay(){
 		Help = 3;
@@ -80,17 +74,7 @@ public class GameView extends BoardView {
 		startPlay();
 	}
 	
-	/*	public static void initSound(Context context){
-		 soundPlay = new SoundPlay();
-	        soundPlay.initSounds(context);
-	        soundPlay.loadSfx(context, R.raw.choose, ID_SOUND_CHOOSE);
-	        soundPlay.loadSfx(context, R.raw.disappear1, ID_SOUND_DISAPEAR);
-	        soundPlay.loadSfx(context, R.raw.win, ID_SOUND_WIN);
-	        soundPlay.loadSfx(context, R.raw.lose, ID_SOUND_LOSE);
-	        soundPlay.loadSfx(context, R.raw.item1, ID_SOUND_REFRESH);
-	        soundPlay.loadSfx(context, R.raw.item2, ID_SOUND_TIP);
-	        soundPlay.loadSfx(context, R.raw.alarm, ID_SOUND_ERROR);
-	}*/
+	
 
 	public void setOnTimerListener(OnTimerListener timerListener){
 		this.timerListener = timerListener;
@@ -117,7 +101,6 @@ public class GameView extends BoardView {
 				GameView.this.invalidate();
 				if (win()) {
 					setMode(WIN);
-//					soundPlay.play(ID_SOUND_WIN, 0);
 					isStop = true;
 				} else if (die()) {
 					change();
@@ -147,7 +130,6 @@ public class GameView extends BoardView {
 			}
 			if(!isStop){
 				setMode(LOSE);
-//				soundPlay.play(ID_SOUND_LOSE, 0);
 			}
 			
 		}
@@ -175,17 +157,14 @@ public class GameView extends BoardView {
 				if (link(selected.get(0), p)) {
 					selected.add(p);
 					drawLine(path.toArray(new Point[] {}));
-//					soundPlay.play(ID_SOUND_DISAPEAR, 0);
 					refreshHandler.sleep(500);
 				} else {
 					selected.clear();
 					selected.add(p);
-//					soundPlay.play(ID_SOUND_CHOOSE, 0);
 					GameView.this.invalidate();
 				}
 			} else {
 				selected.add(p);
-//				soundPlay.play(ID_SOUND_CHOOSE, 0);
 				GameView.this.invalidate();
 			}
 		}
@@ -410,9 +389,7 @@ public class GameView extends BoardView {
 
 	public void autoClear() {
 		if (Help == 0) {
-//			soundPlay.play(ID_SOUND_ERROR, 0);
 		}else{
-//			soundPlay.play(ID_SOUND_TIP, 0);
 			Help--;
 			toolsChangedListener.onTipChanged(Help);
 			drawLine(path.toArray(new Point[] {}));
@@ -422,10 +399,8 @@ public class GameView extends BoardView {
 	
 	public void refreshChange(){
 		if(Refresh == 0){
-//			soundPlay.play(ID_SOUND_ERROR, 0);
 			return;
 		}else{
-//			soundPlay.play(ID_SOUND_REFRESH, 0);
 			Refresh--;
 			toolsChangedListener.onRefreshChanged(Refresh);
 			change();
