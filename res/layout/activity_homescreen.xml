@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homescreen_background"
+    tools:context=".HomescreenActivity" >
+  		
+  	<Button 
+  	    android:id="@+id/menuButton"
+	    android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" 
+    	android:textSize="16sp"
+    	android:textColor="#33b6ea"
+    	android:background="@null"
+    	android:text="@string/homescreen_button"/>
+
+  	
+   <TextView
+		android:id="@+id/image"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:gravity="center"
+    	android:scaleType="center"
+    	android:textSize="32sp"
+    	android:textColor="#33b6ea"
+    	android:textStyle="bold"
+    	android:text="@string/ulo_logo"/>
+  	
+</RelativeLayout>
