@@ -20,9 +20,13 @@ import android.view.View;
 
 public class BoardView extends View {
 	
+	// number of icons on x and y axis
+	
 	protected  static final int xCount =10;
 	
 	protected static final int  yCount =12;
+	
+	// Game Board map
 	
 	protected int[][] map = new int[xCount][yCount];
 	
@@ -30,11 +34,16 @@ public class BoardView extends View {
 	
 	protected int iconCounts=19;
 	
+	//all icons of stars for the game
+	
 	protected Bitmap[] icons = new Bitmap[iconCounts];
 	
+	// all available paths
 	
 	private Point[] path = null;
 
+	// selected icons
+	
 	protected List<Point> selected = new ArrayList<Point>();
 	
 	public BoardView(Context context,AttributeSet atts) {
@@ -64,6 +73,7 @@ public class BoardView extends View {
 	}
 	
 
+	// calculate icon size
 	
 	private void calIconSize()
     {
@@ -73,7 +83,7 @@ public class BoardView extends View {
         iconSize = dm.widthPixels/(xCount);
     }
 
-
+	// key: specific icons, d: resources in drawable
 	
 	public void loadBitmaps(int key,Drawable d){
 		Bitmap bitmap = Bitmap.createBitmap(iconSize,iconSize,Bitmap.Config.ARGB_8888);
@@ -86,7 +96,7 @@ public class BoardView extends View {
 	@Override
 	protected void onDraw(Canvas canvas) {
 
-		
+		// show the connection path, then delete the two identity icons
 		
 		if (path != null && path.length >= 2) {
 			for (int i = 0; i < path.length - 1; i++) {
@@ -107,6 +117,8 @@ public class BoardView extends View {
 			path = null;
 		}
 
+		// draw all icons on the map
+		
 		for(int x=0;x<map.length;x+=1){
 			for(int y=0;y<map[x].length;y+=1){
 				if(map[x][y]>0){
@@ -115,6 +127,8 @@ public class BoardView extends View {
 				}
 			}
 		}
+		
+		// draw the selected icon, make it a little bit bigger when it's selected
 		
 		for(Point position:selected){
 			Point p = indextoScreen(position.x, position.y);
@@ -131,10 +145,13 @@ public class BoardView extends View {
 		this.invalidate();
 	}
 	
+	// translate the coordinates in the arrays into real coordinates on the screen
+	
 	public Point indextoScreen(int x,int y){
 		return new Point(x* iconSize , y * iconSize );
 	}
 
+	// translate the coordinates on the screen into coordinates in the arrays
 	
 	public Point screenToindex(int x,int y){
 		int ix = x/ iconSize;
