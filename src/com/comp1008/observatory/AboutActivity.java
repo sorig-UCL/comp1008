@@ -5,8 +5,11 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.support.v4.app.NavUtils;
 import android.annotation.TargetApi;
+import android.content.Intent;
 
 public class AboutActivity extends Activity {
 
@@ -16,6 +19,7 @@ public class AboutActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_about);
 		
+		this.initialiseButtons();
 		// Show the Up button in the action bar.
 		if (Build.VERSION.SDK_INT >= 11) {
 			getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -45,5 +49,14 @@ public class AboutActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
-
+	private void initialiseButtons() {
+		Button staffButton = (Button) findViewById(R.id.staffButton);
+		staffButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+            	Intent intent = new Intent(AboutActivity.this, StaffActivity.class);
+       	     	startActivity(intent);
+            }
+        });
+	}
 }
