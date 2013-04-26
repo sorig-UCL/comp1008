@@ -38,6 +38,8 @@ public class WeatherActivity extends Activity implements WeatherAPIClientDelegat
 			getActionBar().setDisplayHomeAsUpEnabled(true);
 		}
 		
+		setTitle("Weather@ULO (-0.242, 51.613)");
+		
 		// Initialise listview and its adapter
 		ListView listView = new ListView(this);
 		
