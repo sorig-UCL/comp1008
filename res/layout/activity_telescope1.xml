@@ -1,17 +1,17 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ScrollView03"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_height="fill_parent" 
     android:layout_marginBottom="10dp" >
     
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="10dp"
-    tools:context=".HistoryActivity" >
+    tools:context=".TelescopesActivity" >
     
     <TextView
-        android:id="@+id/titlePrewarexpansion"
+        android:id="@+id/titleTelescope1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -19,18 +19,27 @@
         android:layout_alignParentLeft="true"
         android:textStyle="bold"
         android:textColor="#33b6ea"
-        android:text="@string/history_prewarexpansion_button" />
+        android:text="@string/telescopes_telescope1_button" />
  
 	<TextView
-        android:id="@+id/textPrewarexpansion"
-        android:layout_below="@+id/titlePrewarexpansion"
+        android:id="@+id/textTelescope1"
+        android:layout_below="@+id/titleTelescope1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"
-        android:text="@string/history_prewarexpansion"
-        style="@style/AboutTextStyle" /> 
-    
+        android:layout_marginBottom="10dp"
+        android:text="@string/telescope1"
+        style="@style/AboutTextStyle" />
 
+	<ImageView
+	    android:id="@+id/telescope1Image"
+	    android:layout_width="300dp"
+	    android:layout_height="240dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_alignParentBottom="true"
+	    android:layout_below="@+id/textTelescope1"
+	    android:gravity="center"
+	    android:src="@drawable/telescope1" />
+    	
 </RelativeLayout>
 </ScrollView>

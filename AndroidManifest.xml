@@ -31,13 +31,45 @@
                 android:value="com.comp1008.observatory.MenuActivity" />
         </activity>
         <activity
-            android:name="com.comp1008.observatory.ResearchActivity"
-            android:label="@string/title_activity_research"
+            android:name="com.comp1008.observatory.TelescopesActivity"
+            android:label="@string/title_activity_telescopes"
             android:parentActivityName="com.comp1008.observatory.MenuActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.comp1008.observatory.MenuActivity" />
         </activity>
+        <activity
+            android:name="com.comp1008.observatory.Telescope1Activity"
+            android:label="@string/telescopes_telescope1_button" 
+            android:parentActivityName="com.comp1008.observatory.Telescope1Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.TelescopesActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.Telescope2Activity"
+            android:label="@string/telescopes_telescope2_button" 
+            android:parentActivityName="com.comp1008.observatory.Telescope2Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.TelescopesActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.Telescope34Activity"
+            android:label="@string/telescopes_telescope34_button" 
+            android:parentActivityName="com.comp1008.observatory.Telescope34Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.TelescopesActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.Telescope5Activity"
+            android:label="@string/telescopes_telescope5_button" 
+            android:parentActivityName="com.comp1008.observatory.Telescope5Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.TelescopesActivity" />
+        </activity>                
         <activity
             android:name="com.comp1008.observatory.HistoryActivity"
             android:label="@string/title_activity_history"
@@ -86,6 +118,38 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.comp1008.observatory.HistoryActivity" />
         </activity>
+        <activity
+            android:name="com.comp1008.observatory.PrewarexpansionActivity"
+            android:label="@string/history_prewarexpansion_button" 
+            android:parentActivityName="com.comp1008.observatory.PrewarexpansionActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.HistoryActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.ThewaryearsActivity"
+            android:label="@string/history_thewaryears_button" 
+            android:parentActivityName="com.comp1008.observatory.ThewaryearsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.HistoryActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.PostwarexpansionActivity"
+            android:label="@string/history_postwarexpansion_button" 
+            android:parentActivityName="com.comp1008.observatory.PostwarexpansionActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.HistoryActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.UlotodayActivity"
+            android:label="@string/history_ulotoday_button" 
+            android:parentActivityName="com.comp1008.observatory.UlotodayActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.HistoryActivity" />
+        </activity>                
         <activity
             android:name="com.comp1008.observatory.EventsActivity"
             android:label="@string/title_activity_events"

@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="10dp" >
+    
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    tools:context=".TelescopesActivity" >
+
+    <TextView
+        android:id="@+id/telescopesIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:text="@string/telescopes_intro" />
+    
+    <Button
+        android:id="@+id/telescope1Button"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/telescopesIntro"
+        style="@style/TelescopesButtonStyle"
+        android:text="@string/telescopes_telescope1_button" />
+
+    <Button
+        android:id="@+id/telescope2Button"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/telescope1Button"
+        style="@style/TelescopesButtonStyle"
+        android:text="@string/telescopes_telescope2_button" />
+
+    <Button
+        android:id="@+id/telescope34Button"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/telescope2Button"
+        style="@style/TelescopesButtonStyle"
+        android:text="@string/telescopes_telescope34_button" />
+
+    <Button
+        android:id="@+id/telescope5Button"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/telescope34Button"        
+        style="@style/TelescopesButtonStyle"
+        android:text="@string/telescopes_telescope5_button" />
+
+</RelativeLayout>
+</ScrollView>

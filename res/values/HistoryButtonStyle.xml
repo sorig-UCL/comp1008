@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-	<style name="HistoryButtonStyle" parent="@android:style/TextAppearance.Medium">
+	<style name="TelescopesButtonStyle" parent="@android:style/TextAppearance.Medium">
 		<item name="android:layout_width">match_parent</item>
 		<item name="android:layout_height">50dp</item>
 		<item name="android:layout_marginLeft">10dp</item>
@@ -8,7 +8,7 @@
 		<item name="android:textColor">#33b6ea</item>
 		<item name="android:typeface">normal</item>
 		<item name="android:textStyle">bold</item>
-		<item name="android:textSize">24sp</item>
+		<item name="android:textSize">16sp</item>
 		<item name="android:background">@drawable/shape</item>
     </style>
 </resources>

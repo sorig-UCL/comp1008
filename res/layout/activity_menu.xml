@@ -16,20 +16,20 @@
         android:text="@string/menu_about_button_title" />
 
     <Button
-        android:id="@+id/researchButton"
+        android:id="@+id/telescopesButton"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
         android:layout_below="@+id/aboutButton"
         style="@style/MenuButtonStyle"
-        android:text="@string/menu_research_button_title" />
+        android:text="@string/menu_telescopes_button_title" />
 
     <Button
         android:id="@+id/weatherButton"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="5dp"
-        android:layout_below="@+id/researchButton"
+        android:layout_below="@+id/telescopesButton"
         style="@style/MenuButtonStyle"
         android:text="@string/menu_weather_button_title" />
 

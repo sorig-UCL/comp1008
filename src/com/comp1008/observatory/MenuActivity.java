@@ -34,11 +34,11 @@ public class MenuActivity extends Activity {
             }
         });
 		
-		Button researchButton = (Button) findViewById(R.id.researchButton);
-		researchButton.setOnClickListener(new View.OnClickListener() {
+		Button telescopesButton = (Button) findViewById(R.id.telescopesButton);
+		telescopesButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-            	Intent intent = new Intent(MenuActivity.this, ResearchActivity.class);
+            	Intent intent = new Intent(MenuActivity.this, TelescopesActivity.class);
        	     	startActivity(intent);
             }
         });
