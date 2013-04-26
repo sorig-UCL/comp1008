@@ -126,5 +126,9 @@ A milestone in this process was passed on 2010 July 21, when student Jakub Bochi
 A number of operational matters have yet to be resolved, and routine remote observing still lies well ahead. Nonetheless, the success of this experiment, attributable to the combined efforts of all the technical and academic staff at the Observatory, demonstrates great promise for future progress in this direction.</string>
     <string name="event_content3">What happens when art and astronomy meet? Artist Katie Paterson has joined UCLs Astrophysics Group as their first Artist in Residence, thanks to a grant from the Leverhulme Trust. During the residency, Katie will investigate ideas of Ancient Darkness and Early Light in the Universe, Dark Energy, Dark Matter, and very distant objects, and create a new body of artwork alongside her findings. Katie graduated from the UCL Slade School of Fine Art in 2007.
 The following video, which includes much footage obtained at ULO, outlines some of the concepts and ideas.</string>
+    <string name="event_home_image">event homw image</string>
+    <string name="event_image1">event_image1</string>
+    <string name="event_image2">event_image2</string>
+    <string name="event_image3">event_image3</string>
 
 </resources>
