@@ -13,29 +13,40 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.support.v4.app.NavUtils;
 
 public class WeatherActivity extends Activity implements WeatherAPIClientDelegate {
 	
 	private WeatherAPIClient client;
+	private ArrayAdapter<WeatherDataEntry> adapter;
 	
 	public WeatherActivity() 
 	{
 		this.client = new WeatherAPIClient();
-		this.client.setDelegate(this);
+		this.client.setDelegate(this);		
 	}
 	
 	@Override
 	@TargetApi(11)
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_weather);
 		
 		// Show the Up button in the action bar.
 		if (Build.VERSION.SDK_INT >= 11) {
 			getActionBar().setDisplayHomeAsUpEnabled(true);
 		}
 		
+		// Initialise listview and its adapter
+		ListView listView = new ListView(this);
+		
+		this.adapter = new ArrayAdapter<WeatherDataEntry>(this, android.R.layout.simple_list_item_1, this.client.getData());
+		listView.setAdapter(this.adapter);
+		
+		setContentView(listView);
+		
+		// Make API client fetch data from the internet
 		this.client.updateData();
 	}
 
@@ -64,20 +75,17 @@ public class WeatherActivity extends Activity implements WeatherAPIClientDelegat
 	}
 
 	@Override
-	public void clientDidReceiveNewData(WeatherAPIClient client) {
-		ArrayList<WeatherDataEntry> data = client.getData();
-		System.out.println(data);
+	public void clientDidReceiveNewData(WeatherAPIClient client) 
+	{
+		// Clear the adapter array and add all the data entries
+		this.adapter.clear();
 		
-		for (WeatherDataEntry entry : data)
-		{
-			System.out.print(entry.getTimepoint().get(Calendar.YEAR));
-			System.out.print(" ");
-			System.out.print(entry.getTimepoint().get(Calendar.MONTH));
-			System.out.print(" ");
-			System.out.print(entry.getTimepoint().get(Calendar.DATE));
-			System.out.print(" ");
-			System.out.println(entry.getTimepoint().get(Calendar.HOUR_OF_DAY));
+		for (WeatherDataEntry entry : client.getData())
+		{			
+			this.adapter.add(entry);
 		}
+		
+		this.adapter.notifyDataSetChanged();
 	}
 
 }

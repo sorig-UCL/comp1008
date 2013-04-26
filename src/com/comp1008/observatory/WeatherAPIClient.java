@@ -34,6 +34,8 @@ public class WeatherAPIClient {
 		params.put("output", "json");
 		params.put("tzshift", "0");
 		
+		// Asynchronous client request
+		// Library used here: android-async-http
 		client.get(APIUrl, params, new AsyncHttpResponseHandler() {			
 		    @Override
 		    public void onSuccess(String response) {
@@ -79,6 +81,7 @@ public class WeatherAPIClient {
 			
 			for (int i = 0; i < dataseries.length(); i++) 
 			{
+				// Convert the JSON Object to WeatherDataEntry objects
 				JSONObject JSONEntry = dataseries.getJSONObject(i);
 				WeatherDataEntry entry = new WeatherDataEntry();
 				
@@ -105,6 +108,7 @@ public class WeatherAPIClient {
 		}
 	}
 	
+	// Takes a string of the format 2013042508 and converts it to the correct date representation
 	private Calendar parseDateTimeString(String dateTimeString)
 	{
 		int year = Integer.parseInt(dateTimeString.substring(0, 4));
