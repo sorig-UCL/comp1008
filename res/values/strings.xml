@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">observatory</string>
@@ -9,12 +10,78 @@
     <string name="menu_events_button_title">Events</string>
     <string name="menu_weather_button_title">Weather</string>
     <string name="menu_game_button_title">Game</string>
-    <string name="title_activity_about">AboutActivity</string>
-    <string name="title_activity_research">ResearchActivity</string>
-    <string name="title_activity_history">HistoryActivity</string>
-    <string name="title_activity_events">EventsActivity</string>
-    <string name="title_activity_weather">WeatherActivity</string>
-    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_research">Research</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_weather">Weather</string>
+    <string name="title_activity_game">Game</string>
+    
+    <string name="ulo_logo">ULO</string>
+    
+    <string name="ulo_about">The University of London Observatory is a hands-on teaching observatory and is part of the Astrophysics Group at UCLs Department of Physics and Astronomy."\n\n"
+We are equipped with five permanently mounted telescopes, two computer classrooms and a specialist astronomy library. Our reasonable proximity to the main campus, and the provision of regular classes, ensure that students have good access to the telescopes."\n\n"
+In addition to observing, students are trained in data-reduction techniques, the practical applications of astrophysical theory, and computational astronomy. This training can take place in the context of an undergraduate degree module, a student project, or, for interested members of the public, as part of our further-education Certifcate in Astronomy."\n\n"
+ULO remains active in scientific inquiry, with a strong observational research programme in extrasolar planets. We are in the process of expanding our observing capabilities with the development of unattended (remote and robotic) observing modes, which we hope will culminate in a new large robotic telescope, a project for which funding is currently underway."\n\n"
+We offer guided tours to the public (booking required), and are actively engaged in outreach activities to schools. We are honoured to be affiliated to the Worshipful Company of Clockmakers.</string>
+	<string name="ulo_address_title">Address</string>
+    <string name="ulo_address">University of London Observatory"\n"553 Watford Way"\n"Mill Hill Park"\n"London"\n"NW7 2QS</string>
+    <string name="ulo_finding_title">Finding ULO</string>
+    <string name="ulo_finding">The Observatory is located off the northbound carriageway of the A1 in Mill Hill, North London. (There is no vehicular access from the southbound carriageway; pedestrians on the southbound side of the road must use the under-road subway just north of the Observatory.) It is easily reached by public transport."\n\n"
+We discourage arrival by car; entry to the site from the Watford Way is hazardous, and there is no parking for tour visitors on site. A large, free public car park is located nearby Daws Lane (postcode for satnav is NW7 4SL. The route to ULO is via the A1 pedestrian underpass, most easily reached from the alley that runs along the western side of Royal Mail Mill Hill Delivery Office). Parking is also available in the Mill Hill Broadway railway-station car park in Bunns Lane (pay and display, but free after 18:30)."\n\n"
+Disabled visitors should contact us in advance to enquire about access; note that the site is not wheelchair-friendly, and has steep stairways.</string>   
+    <string name="ulo_staff_title">Staff</string>
+    <string name="ulo_staff">Please click here for detailed information of the ULO staff</string>
+    <string name="ulo_contact_title">Contact</string>
+    <string name="ulo_contact"><b>Telephone:</b> +44 (0) 203 108 1613"\n"Administrative office (Dr Fanghanel); all general enquiries, including public visits, schools visits, etc."\n\n"<b>Email: </b> a.fanghanel@ucl.ac.uk"\n"Administrative office (Dr Fanghanel)</string>
+    
+    <string name="history_foundation_button">Foundation</string>
+    <string name="history_prewarexpansion_button">Pre-War Expansion</string>
+    <string name="history_thewaryears_button">The War Years</string>
+    <string name="history_postwarexpansion_button">Post-War Expansion</string>
+    <string name="history_ulotoday_button">ULO Today</string>
+    
+    <string name="history_foundation">In 1925 Mr J. G. Wilson offered to the University of London a 24-inch reflecting telescope owned by his late father, Dr W. E. Wilson, FRS. The telescope had been built by Grubb of Dublin in 1881 and was located at W. E. Wilsons private observatory in Daramona, County Westmeath, Ireland. The gift was accepted. After consideration of many sites for the permanent location of the telescope an agreement was reached with Hendon Urban District Council to lease a site in Mill Hill Park for 999 years at a nominal rent. The Senate of the University raised the £5,000 cost of constructing a suitable building and additional funds were provided by University, Kings, Bedford and East London (now Queen Mary and Westfield) Colleges and from the London School of Economics."\n\n"The Observatory building was designed by Mr L. Rome Guthrie and constructed by Messrs Leslie and Co.; construction commenced in July 1928 and was completed in 1929. The Observatory was opened by the then Astronomer Royal, Sir Frank Dyson, on 1929 October 8.</string>
+    <string name="history_prewarexpansion">The original reinforced concrete observatory building contained the dome for the Wilson 24-inch reflector, a Solar spectrographic laboratory and darkroom, a computing room and a workshop. In January 1930, Mr H.R. Fry of Barnet presented the University with an 8-inch refractor made by Cooke of York in 1862: Mr Fry met most of the cost of its reconditioning and subsequent re-erection. A new small building was erected in 1931 to house the Fry refractor."\n\n"
+        In 1934 the Radcliffe Observatory (then at Oxford) was being relocated near Pretoria in South Africa; the Radcliffe Trustees offered the University the twin 24-inch/18-inch astrographic refractor made by Grubb of Dublin in 1901 The offer was accepted and the telescope was dismantled and brought to London in 1935 together with its dome and rising floor. Additional land was rented from Hendon Urban District Council and a new building was constructed between 1937 and July 1938. The building cost £2300, with an additional £1000 for auxiliary equipment and furnishings and for the re-erection of the telescope, dome and rising floor. The new building was opened by the Astronomer Royal, Sir Harold Spencer Jones, on July 1st 1938.</string>
+    <string name="history_thewaryears">At the outbreak of hostilities in 1939, the Observatory was officially closed, along with the small teaching observatories then at University College (Gower Street, WC1). The lenses of the recently installed Radcliffe telescope were removed and stored at the base of the heavy concrete pier for safety, the telescope being recommissioned in 1946. University College suffered heavily during the blitz and a 10-inch telescope was lost through enemy action. The Observatory at Mill Hill survived unscathed and a programme of spectroscopic research with the Wilson telescope was continued throughout this period; the observers would have benefited greatly from the blackout removing the problem of city lights! "\n\n"
+        The Observatory re-opened officially in 1945 and those of the Gower Street telescopes which had survived the blitz were brought out to Mill Hill in 1946.</string>
+    <string name="history_postwarexpansion">In 1951 administration of the Observatory was transferred from the University to University College and the Observatory was incorporated in a new Department of Astronomy at the College. In 1943, the University had been left a bequest by Mr F. Perren for the furtherance of optical astronomy and this was used to establish the Perren Chair of Astronomy in 1951: the Perren Bequest has subsequently assisted the development of the Observatory. The building of a north wing extension commenced in October 1952 and was completed in April 1953. This contained office space, a library and a lecture room. This was followed by a south wing extension begun in 1960 containing a spectroscopic laboratory and further teaching and office accommodation: building of the south wing was completed in 1961."\n\n"
+        Despite these extensions, the rapid expansion in astronomy caused by the coming of the Space Age meant that by 1965 the Watford Way site had become overcrowded: an Annexe was acquired through converting premises in nearby Daws Lane. The Annexe initially contained an IBM 1130 computer and other facilities for lunar and planetary research, and was opened at 31-33 Daws Lane."\n\n"
+        In 1972, the Department of Astronomy merged with the Physics Department to become the Department of Physics and Astronomy."\n\n"
+        The Radcliffe refractor underwent an extensive programme of reconstruction: the dome and rising floor were replaced. the drive was rebuilt and a modern digital control system constructed. The Fry refractor was dismantled in autumn 1981 for refurbishment; during its absence, its place was taken by the recently restored Joynson Telescope - a 6-inch Cooke equatorial refractor made in 1863. A 7.5-inch Coelostat (solar telescope), made for the Observatory in 1929, is no longer in use, although the mirrors are still intact. The Fry refractor is now back in use in a new dome."\n\n"
+        The Wilson telescope was retired in 1974 and was placed on permanent loan with the Merseyside Museums; it was replaced by a new 24-inch reflector of modern design supplied by Ealing Beck of Watford. This new instrument was named the Allen Telescope after Professor C.W. Allen Director of the Observatory and Perren Professor, 1951-72 and was officially opened by Professor D.W.N Stibbs, Napier Professor of Astronomy at the University of St.Andrews, on May 22 1975. The Allen telescope control system was replaced in the summer of l990 by a new computer controlled system supplied by DFM Engineering of Boulder, Colorado."\n\n"
+        For two decades following the 1974 installation of the Allen telescope, the Observatory and its Annexe provided facilities for undergraduate teaching in practical astronomy and support for research in interstellar physics, star and planet formation theory, geological surveying of planetary surfaces, and stellar abundance studies. Growth in student numbers and new courses eventually meant that the Observatorys facilities were not large enough to teach classes efficiently. Therefore, in 1998 plans were made to expand the teaching and observing site in Watford Way and to move the Planetary Geology group to the main UCL Campus in Gower Street. Part of the funding for new buildings arose from the disposal of the Annexe building; most of the remainder came from generous gifts from the Kirby Laing Foundation, the Curry Trust, and the Perren Fund.</string>
+    <string name="history_ulotoday">Building works completed in 2000 provided a new structure on the Observatorys southern perimeter to house three telescopes (including the restored Fry refractor and a Celestron C14), refurbished and expanded classroom areas, and much-needed office and workshop space. In the other domes, the Allen Telescope has as its main instrument a spectrograph with a CCD detector, and the use of photographic plates on the Radcliffe Telescope has been superceded by video imaging and large-format CCDs. CCD cameras are also used on other telescopes, both for educational and training purposes, and for an active research programme studying extrasolar planets."\n\n"
+        A second C14 telescope was installed in 2009, part of a strategy to open up opportunities for "unattended observing", whereby data can be acquired under remote or robotic operation. Our ambitious development project aims to provide a modern, metre-class telescope for training and research purposes, which will also be under computer control and have remote/robotic capabilities."\n\n"
+        Teaching has historically been focussed on the introductory first-year courses (including, since 2008, programmes for all Physics students), third-year advanced practical teaching, and 4th-year project work. Third-year students can also opt for a one-week field trip to the Observatoire de Haute Provence, supervised by Observatory staff, for intensive observing experience at a dark-sky site."\n\n"
+        Beginning in 2001, the teaching of astronomy at the Observatory expanded to provide for students enrolled in a part-time evening course at UCL, the popular Certificate of Higher Education in Astronomy. Public and school visits each year typically involve of order 1000 visitors per year who tour the premises and look through telescopes if conditions permit. On a single day in 2004, the Observatory was host to 560 visitors who arrived from 6.00am onwards to view the historic Transit of Venus on June 8th."\n\n"
+        Computing facilities at the Observatory and Annexe have been continually updated over the years, from hand cranked Brunsviga calculators in the 1940s to the current network of powerful servers, Linux workstations and PCs for staff and students.</string>
+    <string name="history_intro">The University of London Observatory has a very interesting history. Please select a period to find out more about:</string>
+    
+    <string name="time">Time used:$ seconds</string>
+    <string name="quit">Exit</string>
+    <string name="sure_quit">Are you sure to exit?</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    
+    
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper tortor nec orci placerat pellentesque. Curabitur sit amet nisl odio. Vivamus tempus tortor id ligula pharetra consectetur. Nullam id erat magna, nec gravida quam. Phasellus at elit felis. Aliquam et quam metus, sed pulvinar tortor. Curabitur venenatis faucibus lorem at molestie. Morbi tempor justo ut lacus pharetra ac convallis ipsum faucibus. Sed tempor dapibus mi eu consequat. In id diam mauris, sed posuere massa. Nam libero nunc, consequat et aliquet vestibulum, suscipit a nunc. Mauris egestas lectus in lectus convallis a sollicitudin quam pretium. Etiam consequat scelerisque risus ac eleifend. Nullam laoreet ultricies nibh, id vulputate lorem euismod non. Donec urna elit, adipiscing eu faucibus sit amet, aliquet eget nisi.</string>
+    <string name="events_title">News &amp; Events</string>
+    <string name="events_button_title1">ULO Affiliates to the Worshipful Company of Clockmakers</string>
+    <string name="events_button_title2">First Light for Remotely-Conducted Observations at ULO</string>
+    <string name="events_button_title3">When Art Meets Astronomy</string>
+    <string name="title_activity_testing">TestingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_event1">Event1</string>
+    <string name="title_activity_event2">Event2</string>
+    <string name="title_activity_event3">Event3</string>
+    <string name="event_content1">The close historical association between astronomy and timekeeping has been recognized by an invitation of affiliation from the Worshipful Company of Clockmakers
+The affiliation was formally marked on 2013 January 24 at ULO, when the Master of the Clockmakers, Mark Elliott, presented the Clockmakers Shield of Arms to the President and Provost of UCL, Professor Malcolm Grant. We look forward to a long and fruitful relationship.</string>
+    <string name="event_content2">The Observatory is developing the capability of operating suitable telescopes from off-site, a process initially made possible by a CIF grant allowing purchase of equipment enabling a dome to track the motion of the telescope it houses. Over the summer months a concerted and continuing effort has been made by Observatory staff to tackle remaining mechanical and software challenges, with undergraduate involvement made possible through bursaries provided by the Nuffield Trust and the Royal Astronomical Society.
+A milestone in this process was passed on 2010 July 21, when student Jakub Bochinski controlled a C14 telescope and its CCD camera from his home in central London, using a web-based interface – the first remote observation to be conducted at ULO. As well as calibration frames, a set of first light images of the planetary nebula M27, shown below, was obtained.
+A number of operational matters have yet to be resolved, and routine remote observing still lies well ahead. Nonetheless, the success of this experiment, attributable to the combined efforts of all the technical and academic staff at the Observatory, demonstrates great promise for future progress in this direction.</string>
+    <string name="event_content3">What happens when art and astronomy meet? Artist Katie Paterson has joined UCLs Astrophysics Group as their first Artist in Residence, thanks to a grant from the Leverhulme Trust. During the residency, Katie will investigate ideas of Ancient Darkness and Early Light in the Universe, Dark Energy, Dark Matter, and very distant objects, and create a new body of artwork alongside her findings. Katie graduated from the UCL Slade School of Fine Art in 2007.
+The following video, which includes much footage obtained at ULO, outlines some of the concepts and ideas.</string>
 
 </resources>

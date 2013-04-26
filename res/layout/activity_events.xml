@@ -1,16 +1,38 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".EventsActivity" >
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Events"
+        android:gravity="center"
+        android:text="@string/events_title"
+        android:textSize="50sp"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/eventButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/events_button_title1" 
+        android:onClick="event1"/>
+
+    <Button
+        android:id="@+id/eventButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/events_button_title2" 
+        android:onClick="event2"/>
+
+    <Button
+        android:id="@+id/eventButton3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/events_button_title3"
+        android:onClick="event3"/>
+
+</LinearLayout>

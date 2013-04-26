@@ -2,19 +2,19 @@ package com.comp1008.observatory;
 
 import android.os.Build;
 import android.os.Bundle;
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
-import android.annotation.TargetApi;
 
-public class GameActivity extends Activity {
+public class ThewaryearsActivity extends Activity {
 
 	@Override
 	@TargetApi(11)
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_game);
+		setContentView(R.layout.activity_thewaryears);
 		
 		// Show the Up button in the action bar.
 		if (Build.VERSION.SDK_INT >= 11) {
@@ -25,7 +25,7 @@ public class GameActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.activity_game, menu);
+		getMenuInflater().inflate(R.menu.activity_thewaryears, menu);
 		return true;
 	}
 

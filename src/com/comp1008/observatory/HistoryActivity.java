@@ -4,9 +4,10 @@ import android.os.Build;
 import android.os.Bundle;
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
-import android.view.MenuItem;
-import android.support.v4.app.NavUtils;
+import android.view.View;
+import android.widget.Button;
 
 public class HistoryActivity extends Activity {
 
@@ -16,6 +17,7 @@ public class HistoryActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_history);
 		
+		this.initialiseButtons();
 		// Show the Up button in the action bar.
 		if (Build.VERSION.SDK_INT >= 11) {
 			getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -28,22 +30,51 @@ public class HistoryActivity extends Activity {
 		getMenuInflater().inflate(R.menu.activity_history, menu);
 		return true;
 	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-		case android.R.id.home:
-			// This ID represents the Home or Up button. In the case of this
-			// activity, the Up button is shown. Use NavUtils to allow users
-			// to navigate up one level in the application structure. For
-			// more details, see the Navigation pattern on Android Design:
-			//
-			// http://developer.android.com/design/patterns/navigation.html#up-vs-back
-			//
-			NavUtils.navigateUpFromSameTask(this);
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
+	
+	private void initialiseButtons() {
+		Button foundationButton = (Button) findViewById(R.id.foundationButton);
+		foundationButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+            	Intent intent = new Intent(HistoryActivity.this, FoundationActivity.class);
+       	     	startActivity(intent);
+            }
+        });
+		
+		Button prewarexpansionButton = (Button) findViewById(R.id.prewarexpansionButton);
+		prewarexpansionButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+            	Intent intent = new Intent(HistoryActivity.this, PrewarexpansionActivity.class);
+       	     	startActivity(intent);
+            }
+        });
+		
+		Button thewaryearsButton = (Button) findViewById(R.id.thewaryearsButton);
+		thewaryearsButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+            	Intent intent = new Intent(HistoryActivity.this, ThewaryearsActivity.class);
+       	     	startActivity(intent);
+            }
+        });
+		
+		Button postwarexpansionButton = (Button) findViewById(R.id.postwarexpansionButton);
+		postwarexpansionButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+            	Intent intent = new Intent(HistoryActivity.this, PostwarexpansionActivity.class);
+       	     	startActivity(intent);
+            }
+        });
+		
+		Button ulotodayButton = (Button) findViewById(R.id.ulotodayButton);
+		ulotodayButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+            	Intent intent = new Intent(HistoryActivity.this, UlotodayActivity.class);
+       	     	startActivity(intent);
+            }
+        });
 	}
-
 }

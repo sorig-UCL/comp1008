@@ -15,10 +15,10 @@
         android:theme="@style/AppTheme" android:debuggable="true">
         <activity
             android:name="com.comp1008.observatory.MenuActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name" 
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -47,6 +47,46 @@
                 android:value="com.comp1008.observatory.MenuActivity" />
         </activity>
         <activity
+            android:name="com.comp1008.observatory.PrewarexpansionActivity"
+            android:label="@string/title_activity_history"
+            android:parentActivityName="com.comp1008.observatory.HistoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.HistoryActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.PostwarexpansionActivity"
+            android:label="@string/title_activity_history"
+            android:parentActivityName="com.comp1008.observatory.HistoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.HistoryActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.ThewaryearsActivity"
+            android:label="@string/title_activity_history"
+            android:parentActivityName="com.comp1008.observatory.HistoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.HistoryActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.UlotodayActivity"
+            android:label="@string/title_activity_history"
+            android:parentActivityName="com.comp1008.observatory.HistoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.HistoryActivity" />
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.FoundationActivity"
+            android:label="@string/history_foundation_button" 
+            android:parentActivityName="com.comp1008.observatory.FoundationActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.comp1008.observatory.HistoryActivity" />
+        </activity>
+        <activity
             android:name="com.comp1008.observatory.EventsActivity"
             android:label="@string/title_activity_events"
             android:parentActivityName="com.comp1008.observatory.MenuActivity" >
@@ -70,6 +110,35 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.comp1008.observatory.MenuActivity" />
         </activity>
+        <activity
+            android:name="com.comp1008.observatory.TestingActivity"
+            android:label="@string/title_activity_testing" >
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.Event1"
+            android:label="@string/title_activity_event1" >
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.Event2"
+            android:label="@string/title_activity_event2" >
+        </activity>
+        <activity
+            android:name="com.comp1008.observatory.Event3"
+            android:label="@string/title_activity_event3" >
+        </activity>
+        
+                <activity android:name="com.comp1008.observatory.WelActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:launchMode="singleTask"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
     </application>
 
 </manifest>
