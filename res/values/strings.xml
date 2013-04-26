@@ -16,6 +16,7 @@
     <string name="title_activity_events">Events</string>
     <string name="title_activity_weather">Weather</string>
     <string name="title_activity_game">Game</string>
+    <string name="title_activity_staff">Staff</string>
     
     <string name="ulo_logo">ULO</string>
     
@@ -31,9 +32,11 @@ We offer guided tours to the public (booking required), and are actively engaged
 We discourage arrival by car; entry to the site from the Watford Way is hazardous, and there is no parking for tour visitors on site. A large, free public car park is located nearby Daws Lane (postcode for satnav is NW7 4SL. The route to ULO is via the A1 pedestrian underpass, most easily reached from the alley that runs along the western side of Royal Mail Mill Hill Delivery Office). Parking is also available in the Mill Hill Broadway railway-station car park in Bunns Lane (pay and display, but free after 18:30)."\n\n"
 Disabled visitors should contact us in advance to enquire about access; note that the site is not wheelchair-friendly, and has steep stairways.</string>   
     <string name="ulo_staff_title">Staff</string>
-    <string name="ulo_staff">Please click here for detailed information of the ULO staff</string>
+    <string name="ulo_staff_button">Please click here for a list of the ULO staff</string>
     <string name="ulo_contact_title">Contact</string>
     <string name="ulo_contact"><b>Telephone: +44 (0) 203 108 1613</b>"\n"Administrative office (Dr Fanghanel); all general enquiries, including public visits, schools visits, etc."\n\n"<b>Email: a.fanghanel@ucl.ac.uk</b>"\n"Administrative office (Dr Fanghanel)</string>
+    <string name="ulo_website_title">Website</string>
+    <string name="ulo_website"><a ref="http://www.ulo.ucl.ac.uk"><b>www.ulo.ucl.ac.uk</b></a></string>
     
     <string name="history_foundation_button">Foundation</string>
     <string name="history_prewarexpansion_button">Pre-War Expansion</string>
@@ -87,6 +90,23 @@ The telescopes have Van Slyke Engineering Omega 2.7" focusers, VSE "Mega-Port Si
         Observing the Sun requires special filters; while structures such as sunspots are visible through a white-light filter, the H-alpha filter reveals the chromosphere. The narrow band of wavelengths emitted by hydrogen gas is observed, and structures such as filaments (dark features in photograph) caused by the absorption by hydrogen gas become visible, when they would otherwise be blocked out by the glare from the rest of the photosphere and chromosphere."\n\n"
         Photography is carried out with the use of a digital SLR camera. The main targets are the sun, Moon and the planets, and occasionally bright nebulae and star clusters; fainter objects require longer exposures, which the tracking accuracy of this instruments does not easily allow. There are two methods of photography: prime focus, which in effect uses the entire telescope as a telephoto lens; and eyepiece projection, which includes the use of an eyepiece for magnification of the image. Either method is suitable for taking pictures of the Moon, with prime focus being used to image the Moon its full disk. The planets are usually imaged using eyepiece projection, to increase the image scale."\n\n"
         An Astrovid 2000 video camera allows high-resolution (diffraction-limited) imaging of the Moon and the planets. The system is basically a CCD camera which continuously takes short exposure images, more suited to the tracking systems of the two refractors. The image obtained can be viewed real time on a video monitor and saved to tape. The video tape can be reviewed later, allowing those images caught at times when the atmosphere is uncommonly steady to be "captured" and saved to computer disk for further image processing."\n\n"</string>
+    
+    <string name="staff1">Prof. Ian Howarth</string>
+    <string name="staff2">Dr Peter Thomas</string>
+    <string name="staff3">Dr Alexandra Fanghanel</string>
+    <string name="staff4">Stephen Boyle</string>
+    <string name="staff5">Dr Francisco Diego</string>
+    <string name="staff6">Dr Mike Dworetsky</string>
+    <string name="staff7">Dr Steve Fossey</string>
+    <string name="staff8">Mrs Maureen Evans</string>
+    <string name="staff9">Mrs Julie Fitzgerald</string>
+    <string name="staff10">Mick Pearson</string>
+    <string name="staff11">Thomas Schlichter</string>
+    <string name="staff12">Dr Athem Alsabti</string>
+    
+    <string name="staff_administration_title">Administration</string>
+    <string name="staff_teaching_title">Teaching</string>
+    <string name="staff_support_title">Support</string>
     
     
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ullamcorper tortor nec orci placerat pellentesque. Curabitur sit amet nisl odio. Vivamus tempus tortor id ligula pharetra consectetur. Nullam id erat magna, nec gravida quam. Phasellus at elit felis. Aliquam et quam metus, sed pulvinar tortor. Curabitur venenatis faucibus lorem at molestie. Morbi tempor justo ut lacus pharetra ac convallis ipsum faucibus. Sed tempor dapibus mi eu consequat. In id diam mauris, sed posuere massa. Nam libero nunc, consequat et aliquet vestibulum, suscipit a nunc. Mauris egestas lectus in lectus convallis a sollicitudin quam pretium. Etiam consequat scelerisque risus ac eleifend. Nullam laoreet ultricies nibh, id vulputate lorem euismod non. Donec urna elit, adipiscing eu faucibus sit amet, aliquet eget nisi.</string>

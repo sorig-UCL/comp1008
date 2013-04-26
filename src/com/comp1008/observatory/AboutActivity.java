@@ -5,8 +5,12 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.support.v4.app.NavUtils;
 import android.annotation.TargetApi;
+import android.content.Intent;
+import android.net.Uri;
 
 public class AboutActivity extends Activity {
 
@@ -16,6 +20,7 @@ public class AboutActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_about);
 		
+		this.initialiseButtons();
 		// Show the Up button in the action bar.
 		if (Build.VERSION.SDK_INT >= 11) {
 			getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -45,5 +50,23 @@ public class AboutActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+	private void initialiseButtons() {
+		Button staffButton = (Button) findViewById(R.id.staffButton);
+		staffButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+            	Intent intent = new Intent(AboutActivity.this, StaffActivity.class);
+       	     	startActivity(intent);
+            }
+        });
+		Button mapsButton = (Button) findViewById(R.id.mapsButton);
+		mapsButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                String uri = String.format("geo:0,0?q=university+of+london+observatory");
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+                startActivity(intent);
+            }
+        });
 
+	}
 }

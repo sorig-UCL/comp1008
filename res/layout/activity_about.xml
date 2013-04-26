@@ -42,8 +42,8 @@
         android:textColor="#33b6ea"
         android:text="@string/ulo_address_title" />
 
-	<TextView
-        android:id="@+id/textAddress"
+	<Button
+        android:id="@+id/mapsButton"
         android:layout_below="@+id/titleAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_below="@+id/textAddress"
+        android:layout_below="@+id/mapsButton"
         android:textStyle="bold"
         android:textColor="#33b6ea"
         android:text="@string/ulo_finding_title" />
@@ -73,7 +73,7 @@
         android:text="@+string/ulo_finding"
         style="@style/AboutTextStyle" /> 
 
-	    <TextView
+	<TextView
         android:id="@+id/titleStaff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -83,15 +83,38 @@
         android:textStyle="bold"
         android:textColor="#33b6ea"
         android:text="@string/ulo_staff_title" />
+	    
+    <Button
+        android:id="@+id/staffButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/titleStaff"
+        style="@style/AboutTextStyle"
+        android:text="@string/ulo_staff_button" />
 
 	<TextView
-        android:id="@+id/textStaff"
-        android:layout_below="@+id/titleStaff"
+        android:id="@+id/titleWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/staffButton"
+        android:textStyle="bold"
+        android:textColor="#33b6ea"
+        android:text="@string/ulo_website_title" />
+
+	<TextView
+        android:id="@+id/textWebsite"
+        android:layout_below="@+id/titleWebsite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
-        android:text="@+string/ulo_staff"
+        android:autoLink="web"
+        android:text="@string/ulo_website"
         style="@style/AboutTextStyle" /> 
         
 	<TextView
@@ -100,7 +123,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_below="@+id/textStaff"
+        android:layout_below="@+id/textWebsite"
         android:textStyle="bold"
         android:textColor="#33b6ea"
         android:text="@string/ulo_contact_title" />
