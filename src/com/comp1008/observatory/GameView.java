@@ -28,6 +28,8 @@ public class GameView extends BoardView {
 	private int Help = 3;
 	private int Refresh = 3;
 	
+	// set the original game time to 100 seconds
+	
 	private int totalTime = 100;
 	private int leftTime;
 	
@@ -37,6 +39,7 @@ public class GameView extends BoardView {
 	private RefreshTime refreshTime;
 	private RefreshHandler refreshHandler = new RefreshHandler();
 	
+	// set a variable to stop the timer
 	private boolean isStop;
 	
 	private OnTimerListener timerListener = null;
@@ -48,7 +51,7 @@ public class GameView extends BoardView {
 	public GameView(Context context, AttributeSet atts) {
 		super(context, atts);
 		player = MediaPlayer.create(context, R.raw.back2new); 
-		player.setLooping(true);
+		player.setLooping(true); // set the BGM to play again and again 
 	}
 	
 
@@ -68,6 +71,7 @@ public class GameView extends BoardView {
 		GameView.this.invalidate();
 	}
 	
+	// next play is 10 seconds shorter
 	public void startNextPlay(){
 		
 		totalTime-=10;

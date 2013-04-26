@@ -41,11 +41,11 @@ public class WelActivity extends Activity
 		public void handleMessage(Message msg) {
 			switch(msg.what){
 			case 0:
-				dialog = new MyDialog(WelActivity.this,gameView,"",gameView.getTotalTime() - progress.getProgress());
+				dialog = new MyDialog(WelActivity.this,gameView,"You Win!",gameView.getTotalTime() - progress.getProgress());
 				dialog.show();
 				break;
 			case 1:
-				dialog = new MyDialog(WelActivity.this,gameView,"",gameView.getTotalTime() - progress.getProgress());
+				dialog = new MyDialog(WelActivity.this,gameView,"You Lose!",gameView.getTotalTime() - progress.getProgress());
 				dialog.show();
 			}
 		}
