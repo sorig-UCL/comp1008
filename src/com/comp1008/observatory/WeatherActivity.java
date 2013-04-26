@@ -1,5 +1,12 @@
 package com.comp1008.observatory;
 
+import java.util.ArrayList;
+import java.util.Calendar;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import android.os.Build;
 import android.os.Bundle;
 import android.annotation.TargetApi;
@@ -8,8 +15,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
 
-public class WeatherActivity extends Activity {
-
+public class WeatherActivity extends Activity implements WeatherAPIClientDelegate {
+	
+	private WeatherAPIClient client;
+	
+	public WeatherActivity() 
+	{
+		this.client = new WeatherAPIClient();
+		this.client.setDelegate(this);
+	}
+	
 	@Override
 	@TargetApi(11)
 	protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +35,8 @@ public class WeatherActivity extends Activity {
 		if (Build.VERSION.SDK_INT >= 11) {
 			getActionBar().setDisplayHomeAsUpEnabled(true);
 		}
+		
+		this.client.updateData();
 	}
 
 	@Override
@@ -44,6 +61,23 @@ public class WeatherActivity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+
+	@Override
+	public void clientDidReceiveNewData(WeatherAPIClient client) {
+		ArrayList<WeatherDataEntry> data = client.getData();
+		System.out.println(data);
+		
+		for (WeatherDataEntry entry : data)
+		{
+			System.out.print(entry.getTimepoint().get(Calendar.YEAR));
+			System.out.print(" ");
+			System.out.print(entry.getTimepoint().get(Calendar.MONTH));
+			System.out.print(" ");
+			System.out.print(entry.getTimepoint().get(Calendar.DATE));
+			System.out.print(" ");
+			System.out.println(entry.getTimepoint().get(Calendar.HOUR_OF_DAY));
+		}
 	}
 
 }
