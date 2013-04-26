@@ -29,6 +29,7 @@
 
     <ImageView
         android:id="@+id/ImageView01"
+        android:contentDescription="@string/event_image1"
         android:layout_width="fill_parent"
         android:layout_height="450dp"
         android:layout_alignLeft="@+id/textView1"

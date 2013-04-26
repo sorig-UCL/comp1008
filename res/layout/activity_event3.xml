@@ -18,6 +18,7 @@
     
             <ImageView
                 android:id="@+id/ImageView03"
+                android:contentDescription="@string/event_image3"
                 android:layout_width="fill_parent"
                 android:layout_height="450dp"
                 android:layout_alignLeft="@+id/textView1"
