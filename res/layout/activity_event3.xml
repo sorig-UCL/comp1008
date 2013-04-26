@@ -16,6 +16,16 @@
         android:textSize="30sp"
         android:textStyle="italic" />
     
+            <ImageView
+        android:id="@+id/ImageView03"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitCenter"
+        android:src="@raw/event3" />
+    
         <TextView
             android:id="@+id/editText1"
             android:layout_width="fill_parent"
@@ -24,6 +34,7 @@
             android:layout_alignParentBottom="true"
             android:ems="10"
             android:text="@string/event_content3"
-            android:textSize="22sp" />
+            android:gravity="center"
+            android:textSize="25sp" />
 
 </RelativeLayout>

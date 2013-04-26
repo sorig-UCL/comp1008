@@ -14,25 +14,36 @@
         android:textSize="50sp"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+    <ImageView
+        android:id="@+id/ImageView04"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitCenter"
+        android:src="@raw/eventhome" />
+
     <Button
         android:id="@+id/eventButton1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/events_button_title1" 
-        android:onClick="event1"/>
+        android:onClick="event1"
+        android:text="@string/events_button_title1"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/eventButton2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/events_button_title2" 
-        android:onClick="event2"/>
+        android:onClick="event2"
+        android:text="@string/events_button_title2"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/eventButton3"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:onClick="event3"
         android:text="@string/events_button_title3"
-        android:onClick="event3"/>
+        android:textSize="25sp" />
 
 </LinearLayout>
